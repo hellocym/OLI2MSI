@@ -6,8 +6,8 @@ import numpy as np
 from utils import get_image_paths, read_img
 
 
-img_dir = "/home/wjw/data/sr_datasets/paird_geo_data/test_hr_plus/"
-save_dir = "/home/wjw/data/sr_datasets/paird_geo_data/test_hr_plus_png/"
+img_dir = "dataset/train_hr/"
+save_dir = "dataset/train_hr_png/"
 os.makedirs(save_dir, exist_ok=True)
 img_paths, _ = get_image_paths('img', img_dir)
 print('total imgs: {}'.format(len(img_paths)))
